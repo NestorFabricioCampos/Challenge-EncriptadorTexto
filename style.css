@@ -1,3 +1,4 @@
+
 @import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@400;600&display=swap');
 
 * {
@@ -11,11 +12,11 @@ body{
     color: black;
 }
 
-.header{
+header{
     padding: 2% 0% 0% 15%;
 }
 
-img-container {
-    display:block;
-    margin:auto;    
-  }
+.img-container {
+  display:block;
+  margin:auto;    
+}
