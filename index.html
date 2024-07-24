@@ -9,35 +9,49 @@
 </head>
 <body>
     <h1 class="titulo">Encriptador de Textos</h1>
-    <form>
+    
     <main class="presentacion">
    
         <section class="frameEncriptar">
          
-                <input class="text-encriptar" type="text" name="input-texto" id="texto-entrada" placeholder="Ingrese el texto aquí">
-                <label for="input-texto">* Solo letras minúsculas, sin acento</label>
+                <input class="text-encriptar" type="text" name="input-texto" id="texto-entrada" oninput="validarTextoEntrada();" placeholder="Ingrese el texto aquí">                
+                <div class="imagenCirculo-MensajeSoloLetras">
+                <div class="imagenCirculo-Exclamacion">
+                    <img src="./img/bi_exclamation-circle-fill.png">   
+                </div>
+                <div class="mensaje-SoloLetras" id="msg-SoloLetras">
+                <label for="input-texto">Solo letras minúsculas, sin acento.</label>
+                </div>
+                    <div id="mensajeError" class="error">Solo se permiten letras minúsculas sin acentos ni caracteres especiales.
+                    </div>      
+                </div>
                 <div class="botonesEncriptar">
-                <input class="btn btn-primary" type="button" value="Encriptar" id="btn-encriptar" onclick="encriptarTexto();">
-                <input class="btn btn-secondary" type="button" value="Desencriptar" id="btn-desencriptar" onclick="desencriptarTexto();" disabled>
+                <input class="btn btn-primary btn-lg" type="button" value="Encriptar" id="btn-encriptar" onclick="encriptarTexto();" disabled>
+                <input class="btn btn-secondary btn-lg" type="button" value="Desencriptar" id="btn-desencriptar" onclick="desencriptarTexto();" disabled>
                 </div>
         </section>
 
         <section class="frameResultadoEncriptacion">
             <img src="./img/Muñeco.png"  width="250" heigth="100" id="Muñeco" alt="Imagen presentación">        
-            <label for="texto-salida" id="lbl-mensaje">Ningún mensaje fue encontrado.</label>
-            <input class="text-resultado" type="text" id="texto-salida" style="display: none;">
-            <!--<input class="text-resultado" type="text" id="texto-salida">-->
-            <input class="btn btn-success" type="button" value="Copiar" id="btn-copiar" disabled>
+            <div class="cajaNingunMensaje">
+            <!--<label for="texto-salida" id="lbl-mensaje">Ningún mensaje fue encontrado.</label>-->
+            <p class="parrafoNingunMensaje" id="mensajeNoEncontrado">
+                Ningún mensaje fue encontrado.
+            </p>
+            <p class="ingresoTexto" id="ingresoTextoDeseado">
+                Ingresa el texto que desees encriptar o desencriptar.
+            </p>        
+            </div>
+            <input class="text-resultado" type="text" id="texto-salida" style="display: none;">            
+            <input class="btn btn-success btn-lg" type="button" value="Copiar" id="btn-copiar" onclick="copiarTexto();" disabled>
         </section>    
 
-    </main>  
-</form>
-    <script src="script.js"></script>
-    <p>Sitio en construcción</p>
-    <hr>
+    </main>     
+   
     <footer class="footer">
         <p>Autor: Nestor Fabricio Campos</p>
-        <p>copyrigth @2024</p>
+        <p>Copyrigth @2024</p>
     </footer>
 </body>
+<script src="script.js"></script>
 </html>
