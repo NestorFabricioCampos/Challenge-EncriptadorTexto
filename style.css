@@ -154,8 +154,8 @@ text-align: center;
 .footer{
   color:white;
   background-color:rgb(98, 120, 194);
-  position: fixed;
-  bottom: 0;
+  /*position: fixed;
+  bottom: 0;*/
   padding: 24px;  
   width: 100%;
   text-align: center;
