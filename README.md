@@ -7,6 +7,6 @@
    </p>
 
 <p align="left">
-   <img src="https://img.shields.io/aur/last-modified/🔶">
+   <img src="https://img.shields.io/aur/last-modified/julio">
    </p>
 
