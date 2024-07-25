@@ -2,7 +2,7 @@ function validarTextoEntrada() {
     var input = document.getElementById('texto-entrada').value;
     //var mensajeSoloLetras = document.getElementById('mensaje-SoloLetras').value;
     var mensajeError = document.getElementById('mensajeError');
-    var regex = /^[a-z]+$/;
+    var regex = /^[a-z]/;
 
     if (regex.test(input)) {
         mensajeError.style.display = 'none';
@@ -19,15 +19,13 @@ function encriptarTexto (){
     let textoEncriptado = texto.replace(/e/gi, "enter").replace(/i/gi, "imes").replace(/a/gi, "ai").replace(/o/gi, "ober").replace(/u/gi, "ufat");
     document.getElementById('texto-salida').value = textoEncriptado;
     document.getElementById('texto-salida').style.display = '';
+    document.getElementById('texto-entrada').value = '';
     document.getElementById('mensajeNoEncontrado').style.display = 'none';
     document.getElementById('ingresoTextoDeseado').style.display = 'none';
     document.getElementById('btn-desencriptar').removeAttribute('disabled');
     document.getElementById('btn-copiar').removeAttribute('disabled');
     document.getElementById('Muñeco').style.display = 'none';
     document.getElementById("btn-encriptar").disabled = true;    
-
-    console.log(texto);
-    console.log(textoEncriptado);
 }
 
 function copiarTexto (){

@@ -171,7 +171,7 @@ header{
   font-weight: 100;
 }
 
-/* --------- Responsive Design --------- */
+/* ----------------- Responsive Design ----------------- INICIO */
 
 @media (max-width: 1600px) {
 
@@ -284,7 +284,6 @@ header{
 .ingresoTexto {
   width: 98%;
 }
-
 }
 
 @media (min-width: 769px) and (max-width: 1199px) {
@@ -305,7 +304,6 @@ header{
   justify-content: space-between;
   gap: 32px;  
 }
-
 }
 
 @media (max-width: 768px) {
@@ -334,3 +332,4 @@ header{
   gap: 32px;  
 }
 }
+/* ----------------- Responsive Design ----------------- FIN */
