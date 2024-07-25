@@ -171,7 +171,7 @@ header{
   font-weight: 100;
 }
 
-/* Responsive Design */
+/* --------- Responsive Design --------- */
 
 @media (max-width: 1200px) {
 
@@ -180,11 +180,9 @@ header{
   }
   
   .presentacion{
-      /*flex-direction: column-reverse;*/
       flex-direction:column;
       padding: 5%;
       gap: 32px;
-
   }
 
   .text-encriptar {
@@ -251,4 +249,52 @@ header{
   color: black;
 }
 
+}
+
+@media (min-width: 769px) and (max-width: 1199px) {
+
+  .presentacion{
+    flex-direction:row;
+    padding: 5%;
+    gap: 32px;
+}
+
+  .frameEncriptar{
+    width: auto;               
+}
+
+.botonesEncriptar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 32px;  
+}
+
+}
+
+@media (max-width: 768px) {
+
+  .frameEncriptar{
+    width: auto;               
+}
+
+.botonesEncriptar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 32px;  
+}
+}
+
+@media (max-width: 480px) {
+  .frameEncriptar{
+    width: auto;               
+}
+
+.botonesEncriptar {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 32px;  
+}
 }
