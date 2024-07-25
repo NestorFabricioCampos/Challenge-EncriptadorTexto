@@ -7,6 +7,7 @@
    </p>
 
 <p align="left">
-   <img src="https://img.shields.io/github/deployments/:user/:repo/:environment">
+   <img src="https://img.shields.io/aur/last-modified/:packageName
+">
    </p>
 
