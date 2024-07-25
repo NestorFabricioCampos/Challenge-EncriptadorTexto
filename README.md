@@ -6,7 +6,7 @@
    <img src="https://img.shields.io/badge/STATUS-EN%20DESAROLLO-green">
    </p>
 
-<p align="center">
-   <img src="https://img.shields.io/aur/last-modified/:packageName">
+<p align="left">
+   <img src="https://img.shields.io/aur/última modificación:/:julio">
    </p>
 
