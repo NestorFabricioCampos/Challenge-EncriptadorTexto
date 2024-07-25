@@ -28,5 +28,5 @@ y volver a mostrar por pantalla el texto original ingresado al principio</p>
 </ul>
 
 <h2>Acceso al proyecto en la web</h2>
-<a href=" https://nestorfabriciocampos.github.io/Challenge-EncriptadorTexto">Encriptador de Texto</a>
+<a href="https://nestorfabriciocampos.github.io/Challenge-EncriptadorTexto">Encriptador de Texto</a>
 
