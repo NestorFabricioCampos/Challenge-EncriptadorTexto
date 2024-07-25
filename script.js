@@ -15,8 +15,7 @@ function validarTextoEntrada() {
 }
 
 function encriptarTexto (){
-    let texto = document.getElementById('texto-entrada').value
-    //document.querySelector('#input-texto').value = '';
+    let texto = document.getElementById('texto-entrada').value   
     let textoEncriptado = texto.replace(/e/gi, "enter").replace(/i/gi, "imes").replace(/a/gi, "ai").replace(/o/gi, "ober").replace(/u/gi, "ufat");
     document.getElementById('texto-salida').value = textoEncriptado;
     document.getElementById('texto-salida').style.display = '';
@@ -29,21 +28,7 @@ function encriptarTexto (){
 
     console.log(texto);
     console.log(textoEncriptado);
-
 }
-
-/*function copiarTexto (){
-    navigator.clipboard.readText()
-	.then(text => {
-		console.log(`Resultado: ${text}`);
-    }).catch(error => {
-    	console.log(`Ocurrió un error: ${error}`);
-    })     
-}*/
-
-/*function getFocus() {
-    document.getElementById('texto-salida').select();
-  }*/
 
 function copiarTexto (){
     // Seleccionar el texto del input
@@ -57,8 +42,6 @@ function copiarTexto (){
     // Avisar al usuario que el texto ha sido copiado
     alert("Texto copiado: " + inputTexto.value);
 }
-
-
 
 function desencriptarTexto (){
     let texto = document.querySelector("#texto-entrada").value;

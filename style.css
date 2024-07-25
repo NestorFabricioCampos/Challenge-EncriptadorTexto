@@ -15,8 +15,9 @@
 
 body{
     box-sizing: border-box;
-    background-color: #F3F5FC;
-    color: black;
+    background-color:rgb(145, 190, 190);
+    /*background-color: #F3F5FC;*/
+    color:black;
 }
 
 header{
@@ -162,7 +163,7 @@ header{
 
 .footer{
   color:white;
-  background-color:rgb(98, 120, 194);
+  background-color:rgb(65, 76, 112);
   padding: 5px;    
   text-align: center;
   font-family: var(--fuente-krona);
