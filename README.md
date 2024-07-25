@@ -10,3 +10,20 @@
    <img src="https://img.shields.io/aur/last-modified/google-chrome">
    </p>
 
+<h1>Descripción del Proyecto</h1>
+<p>El Proyecto Encriptador de Texto se encientra en face de desarrollo, el mismo cuenta con una funcionalidad que permitirá ingresar texto
+y luego se puede encriptar el texto ingresado, transformándolo en una cadena ilegible. Posteriormente se podrá desencriptar este texo y
+y volver a mostrar por pantalla el texto original ingresado al principio</p>
+
+<h4 align="center">
+:construction: Proyecto en construcción :construction:
+</h4>
+
+<h2>Tecnologías utilizadas</h2>
+<ul>
+  <li>HTML</li>
+  <li>Javasript</li>
+  <li>Bootstrap</li>
+  <li>CSS</li>
+</ul>
+
