@@ -30,7 +30,8 @@ y volver a mostrar por pantalla el texto original ingresado al principio.</p>
 </ul>
 
 <h1>Finalización del Proyecto</h1>
-<p>Se finaliza el desarrollo del Proyecto, el mismo posee la funcionalidad de ser responsivo y puede ser visualizado correctamente en dispositivos móviles, 
+<p>Se finaliza el desarrollo del Proyecto, el usuario puede insertar un texto que puede ser encriptado o desencriptado, y puede escojer cualquiera de las dos opciones.</p>
+<p>El mismo posee la funcionalidad de ser responsivo y puede ser visualizado correctamente en dispositivos móviles, 
 tablets, laptops y compuadoras de escritorio. Se adjuntan capturas de pantalla del Encriptador de Texto.</p>
 
 <h2>Despliegue</h2>
