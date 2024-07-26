@@ -32,7 +32,6 @@ header{
   margin-top: 10px;
 }
 
-
 .presentacion {
   padding: 5% 15%;
   display: flex;
@@ -164,10 +163,10 @@ header{
 .footer{
   color:white;
   background-color:rgb(65, 76, 112);
-  padding: 5px;    
+  padding: 20px;    
   text-align: center;
   font-family: var(--fuente-krona);
-  font-size: 1rem;
+  font-size: 0.8rem;
   font-weight: 100;
 }
 
@@ -330,6 +329,10 @@ header{
   flex-direction: column;
   justify-content: space-between;
   gap: 32px;  
+}
+
+.footer{
+  font-size: 0.6rem;  
 }
 }
 /* ----------------- Responsive Design ----------------- FIN */
