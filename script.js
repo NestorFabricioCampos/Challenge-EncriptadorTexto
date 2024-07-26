@@ -1,8 +1,7 @@
 function validarTextoEntrada() {
-    var input = document.getElementById('texto-entrada').value;
-    //var mensajeSoloLetras = document.getElementById('mensaje-SoloLetras').value;
+    var input = document.getElementById('texto-entrada').value;   
     var mensajeError = document.getElementById('mensajeError');
-    var regex = /^[a-z]/;
+    var regex = /^[a-z]+$/;
 
     if (regex.test(input)) {
         mensajeError.style.display = 'none';
@@ -22,9 +21,8 @@ function encriptarTexto (){
     document.getElementById('texto-entrada').value = '';
     document.getElementById('mensajeNoEncontrado').style.display = 'none';
     document.getElementById('ingresoTextoDeseado').style.display = 'none';
-    document.getElementById('btn-desencriptar').removeAttribute('disabled');
-    document.getElementById('btn-copiar').removeAttribute('disabled');
-    document.getElementById('Muñeco').style.display = 'none';
+    document.getElementById('Muñeco').style.display = 'none';    
+    document.getElementById('btn-copiar').removeAttribute('disabled');    
     document.getElementById("btn-encriptar").disabled = true;    
 }
 
@@ -32,22 +30,18 @@ function copiarTexto (){
     // Seleccionar el texto del input
     const inputTexto = document.getElementById('texto-salida');
     inputTexto.select();
-    inputTexto.setSelectionRange(0, 99999); // Para dispositivos móviles
-
     // Copiar el texto al portapapeles
     document.execCommand("copy");
-
-    // Avisar al usuario que el texto ha sido copiado
-    alert("Texto copiado: " + inputTexto.value);
 }
 
 function desencriptarTexto (){
     let texto = document.querySelector("#texto-entrada").value;
     let textoDesencriptado = texto.replace(/enter/gi, "e").replace(/imes/gi, "i").replace(/ai/gi, "a").replace(/ober/gi, "o").replace(/ufat/gi, "u");
     document.getElementById('texto-salida').value = textoDesencriptado;
-    document.querySelector("#texto-entrada").value;
-
+    document.getElementById('texto-salida').style.display = '';
+    document.getElementById('texto-entrada').value = '';
+    document.getElementById('mensajeNoEncontrado').style.display = 'none';
+    document.getElementById('ingresoTextoDeseado').style.display = 'none';
+    document.getElementById('Muñeco').style.display = 'none';
+    document.getElementById('btn-copiar').removeAttribute('disabled');    
 }
-
-/*https://es.stackoverflow.com/questions/510006/m%C3%A9todo-de-encriptado-en-javascript*/
-

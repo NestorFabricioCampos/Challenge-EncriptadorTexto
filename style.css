@@ -1,12 +1,9 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@400;600&display=swap');
 
 :root {
    --color-hover: #272727;
-  --fuente-krona: 'Krona One', sans-serif;
-  --fuente-montserrat: 'Montserrat', sans-serif;
+  --fuente-krona: 'Krona One', sans-serif;  
 }
-
 
 * {
   padding: 0;
@@ -15,8 +12,7 @@
 
 body{
     box-sizing: border-box;
-    background-color:rgb(145, 190, 190);
-    /*background-color: #F3F5FC;*/
+    background-color:rgb(145, 190, 190);    
     color:black;
 }
 
@@ -39,7 +35,7 @@ header{
   justify-content: space-between;
 }
 
-/* --- Caja izquierda con incio del proceso de encriptación --- INICIO */
+/* -- Caja izquierda con inicio del proceso de encriptación -- INICIO */
 .text-encriptar {
   margin: 16px 10px 10px 10px;
   font-family: Inter;
@@ -55,7 +51,8 @@ header{
   opacity: 0px;
 }
 
-/* Contenedor para la imagen de exclamación y el mensaje de Solo letras...*/
+/* -- Contenedor para la imagen de
+exclamación y el mensaje de Solo letras... --*/
 .imagenCirculo-MensajeSoloLetras {
   display: flex;
   flex-direction: row;
@@ -69,7 +66,7 @@ header{
   display: none;
 }
 
-/* Sección frameEncriptar */
+/* -- Sección frameEncriptar -- */
 .frameEncriptar{
   display: flex;
   flex-direction:column;
@@ -94,11 +91,9 @@ header{
   justify-content: space-between;
   gap: 32px;
 }
+/* -- Caja izquierda con inicio del proceso de encriptación -- FIN */
 
-
-/* --- Caja izquierda con incio del proceso de encriptación --- FIN */
-
-/* --- Caja derecha con resultado del proceso de encriptación --- INICIO */
+/* -- Caja derecha con resultado del proceso de encriptación -- INICIO */
 .text-resultado {
   margin: 16px 10px 10px 10px;
   font-family: Inter;
@@ -114,7 +109,7 @@ header{
   opacity: 0px;
 }
 
-/* Sección frameDesencriptar */
+/* -- Sección frameDesencriptar -- */
 .frameResultadoEncriptacion{
  display: flex;
  flex-direction:column;
@@ -132,7 +127,7 @@ header{
  -ms-border-radius: 15px;
  -o-border-radius: 15px;
 }
-/* --- Caja derecha con resultado del proceso de encriptación --- FIN */
+/* -- Caja derecha con resultado del proceso de encriptación -- FIN */
 
 .cajaNingunMensaje{
   width: Fixed (336px)px;
@@ -157,7 +152,6 @@ header{
   font-weight: 400;
   line-height: 24px;
   text-align: center;
-
 }
 
 .footer{
@@ -170,7 +164,7 @@ header{
   font-weight: 100;
 }
 
-/* ----------------- Responsive Design ----------------- INICIO */
+/* ----------------------- Responsive Web Design ----------------------- INICIO */
 
 @media (max-width: 1600px) {
 
@@ -235,7 +229,8 @@ header{
     width: auto;                 
 }
 
-/* Contenedor para la imagen de exclamación y el mensaje de Solo letras...*/
+/* Contenedor para la imagen de exclamación
+y el mensaje de Solo letras...*/
 .imagenCirculo-MensajeSoloLetras {
   display: flex;
   flex-direction: row;
@@ -335,4 +330,4 @@ header{
   font-size: 0.6rem;  
 }
 }
-/* ----------------- Responsive Design ----------------- FIN */
+/* ----------------------- Responsive Web Design ----------------------- FIN */
