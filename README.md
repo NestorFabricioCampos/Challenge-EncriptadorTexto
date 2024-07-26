@@ -1,6 +1,8 @@
 <h1 align="center"> Challenge - Encriptador de Texto </h1>
 
+<p align="center">
 <img src="./img/logoProyectoEncriptador.jpg" width="300" heigth="100" alt="Logo del programa de encriptación de textos">
+</p>
 
 <p align="left">
    <img src="https://img.shields.io/badge/STATUS-EN%20DESAROLLO-green">
@@ -31,7 +33,9 @@ y volver a mostrar por pantalla el texto original ingresado al principio.</p>
 <p>Se finaliza el desarrollo del Proyecto, el mismo posee la funcionalidad de ser responsivo y puede ser visualizado correctamente en dispositivos móviles, 
 tablets, laptops y compuadoras de escritorio. Se adjunta una captura de pantalla del Encriptador de Texto.</p>
 
-<img src="./img/proyecto.png" width="300" heigth="100" alt="Captura de pantalla del Encriptador de Texto">
+<p align="center">
+<img src="./img/proyecto.png" width="500" heigth="200" alt="Captura de pantalla del Encriptador de Texto">
+</p>
 
 <p align="left">
    <img src="https://img.shields.io/badge/STATUS-FINALIZADO-green">
